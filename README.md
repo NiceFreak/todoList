@@ -1,4 +1,4 @@
-# HTML5 便签 todo
+# [Sticker TODO](https://nicefreak.github.io/todoList/)<br>
 
 ## 功能
 1. 使用 localStorage 存储数据, 不随刷新浏览器、打开关闭页面等操作变化
@@ -15,4 +15,3 @@
 ![image](https://github.com/NiceFreak/todoList/blob/master/rec1.gif)<br>*新建、删除便签*<br><br>
 ![image](https://github.com/NiceFreak/todoList/blob/master/rec2.gif)<br>*编辑、完成待办事项*<br><br>
 ![image](https://github.com/NiceFreak/todoList/blob/master/rec.png)<br>*效果演示*<br><br>
-访问地址：[Sticker TODO](https://nicefreak.github.io/todoList/)<br>
