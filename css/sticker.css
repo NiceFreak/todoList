@@ -1,0 +1,146 @@
+.sticker:nth-child(even) {
+	transform: rotate(2deg);
+}
+
+.sticker:nth-child(3n) {
+	transform: rotate(-3deg);
+}
+
+.sticker:nth-child(5n) {
+	transform: rotate(5deg);
+}
+
+.sticker {
+	position: absolute;
+	/* background: #ffc; */
+	padding: 10px;
+	width: 260px;
+	min-height: 260px;
+	box-shadow: 2px 2px 2px 2px rgba(60, 60, 60, 0.7);
+}
+
+.sticker-title {
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	margin-left: 10px;
+	cursor: default;
+	user-select: none;
+	outline: none;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+	color: #fffffc;
+}
+
+.sticker-shut {
+	text-indent: 0em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 30px;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+	cursor: default;
+	user-select: none;
+	font-size: 20px;
+	color: #fffffc;
+}
+
+.sticker-shut:hover {
+	color: #95949a;
+}
+
+
+.sticker-time {
+	user-select: none;
+	cursor: default;
+	width: 260px;
+	margin-top: 32px;
+	font-size: 14px;
+	color: #E7E7F6;
+	border-bottom: 1px solid rgba(200, 200, 200, 0.3);
+	padding: 5px 0;
+}
+
+.deadline-title {
+	margin-right: 0px;
+	line-height: 20px;
+	user-select: none;
+	cursor: default;
+	display: inline-block;
+
+}
+
+.finish-time {
+	font-family: "Microsoft Yahei";
+	color: black;
+	width: 190px;
+	height: 20px;
+	font-size: 14px;
+	outline: none;
+	display: inline-block;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	color: #fffffc;
+}
+
+.sticker-message {
+	width: 100%;
+	min-height: 170px;
+	overflow: hidden;
+	outline:none;
+	max-height: 320px;
+	user-select: none;
+	padding-top: 5px;
+	color: #fffffe;
+}
+
+.add-sticker {
+	z-index: 1000;
+	transition: 0.3s;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	left: 5%;
+	bottom: 50%;
+	transform: translate(-50%, -50%);
+	background: url('../img/plus.png');
+	background-size: 100% 100%;
+	opacity: 0.3;
+}
+
+.add-sticker:hover {
+	opacity: 0.4;
+	transform: translate(-50%, -30%);
+	width: 70px;
+	height: 70px;
+}
+
+.trash-bin {
+	transition: 0.5s;
+	cursor:default;
+	z-index: 1000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	transform: translate(-50%, -50%);
+	background: url('../img/trash.png');
+	background-size: 100% 100%;
+	opacity: 0.2;
+}
+
+.trash-bin-hover {
+	transform: translate(-50%, 0%);
+	width: 100px;
+	height: 100px;
+	opacity: 0.3;
+}
